@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "uber-rides",
+    "title": "Uber Rides Analysis",
+    "thumb": "/assets/uber.png",
+    "desc": "Comprehensive analysis of 150K+ Uber ride data identifying booking patterns, cancellation drivers, and revenue leakage points to optimize operational efficiency.",
+    "tools": ["Python", "SQL", "Power BI"],
+    "github": "https://github.com/Hemant-sonbarse/Uber-Rides-Analysis"
+  },
+  {
+    "slug": "hospital-waitlist",
+    "title": "Hospital Wait-list Dashboard",
+    "thumb": "/assets/hospital.png",
+    "desc": "Developed an interactive Power BI dashboard tracking patient wait times and departmental flow, enabling data-driven resource allocation and reducing operational bottlenecks.",
+    "tools": ["Power BI", "Excel"],
+    "github": "https://github.com/Hemant-sonbarse/hospital-waitlist-dashboard"
+  },
+  {
+    "slug": "hr-analytics",
+    "title": "HR Analytics Dashboard",
+    "thumb": "/assets/hr.png",
+    "desc": "End-to-end HR analytics solution integrating Snowflake data with Tableau visualizations to monitor hiring metrics, employee retention, and cross-departmental performance.",
+    "tools": ["Tableau", "SQL", "AWS", "Snowflake"],
+    "github": "https://github.com/Hemant-sonbarse/HR-Analytics-Dashboard-Tableau"
+  }
+]
