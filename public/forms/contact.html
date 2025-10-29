@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Form</title>
+</head>
+<body>
+  <!-- Netlify form detection - this file helps Netlify identify the form at build time -->
+  <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+    <input type="text" name="name" />
+    <input type="email" name="email" />
+    <textarea name="message"></textarea>
+  </form>
+  
+  <!-- Success message redirect -->
+  <script>
+    if (window.location.search.includes('success=true')) {
+      window.location.href = '/#contact';
+    }
+  </script>
+</body>
+</html>
